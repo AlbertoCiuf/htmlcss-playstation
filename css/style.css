@@ -1,3 +1,50 @@
+/*GLOBAL, COMMON*/
+.ac-chevron {
+  width: 12px;
+}
+
+.ac-container-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ac-btn-orange {
+  background-color: #CC3D0F;
+}
+
+/*HEADER*/
 header {
   height: 100px;
+}
+
+header .ac-header-top {
+  height: 30px;
+  background-color: #000;
+}
+
+header .ac-header-top img {
+  height: 15px;
+  padding-right: 10px;
+}
+
+/*JUMBOTRON*/
+.ac-jumbotron {
+  margin-top: 100px;
+  background-image: url(../img/jumbo-bg.png);
+  height: 650px;
+  background-size: cover;
+  background-position: left center;
+}
+
+.ac-jumbotron img {
+  width: 100%;
+}
+
+.ac-jumbotron .btn {
+  width: 30%;
+  border-radius: 25px;
+}
+
+.ac-jumbotron img, .ac-jumbotron h2, .ac-jumbotron p {
+  padding-bottom: 30px;
 }
