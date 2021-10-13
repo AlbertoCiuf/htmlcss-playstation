@@ -12,6 +12,18 @@
   background-color: #CC3D0F;
 }
 
+.ac-btn-teal {
+  background-color: #2D64E6;
+}
+
+.ac-teal {
+  color: #2276CF;
+}
+
+h4 {
+  color: grey;
+}
+
 /*HEADER*/
 header {
   height: 100px;
@@ -29,7 +41,7 @@ header .ac-header-top img {
 
 /*JUMBOTRON*/
 .ac-jumbotron {
-  margin-top: 100px;
+  margin: 100px 0 20px 0;
   background-image: url(../img/jumbo-bg.png);
   padding: 200px 0 50px 0;
   background-size: cover;
@@ -54,4 +66,58 @@ header .ac-header-top img {
 .ac-jumbotron img, .ac-jumbotron h2, .ac-jumbotron p {
   padding-bottom: 30px;
   padding-left: 15px;
+}
+
+
+/*card che wrappano sotto jumbotron*/
+.ac-card, .ac-card img {
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+.ac-card {
+  margin: 10px;
+}
+
+.ac-game-cards .ac-card:hover {
+  cursor: pointer;
+}
+
+.ac-card.ac-active {
+  border: 2px solid #2072CE;
+  padding: 3px;
+  border-radius: 25px;
+}
+
+/*section slogan*/
+
+.ac-slogan {
+  margin-top: 100px;
+}
+
+.ac-slogan h2 {
+  font-size: 48px;
+  padding-bottom: 15px;
+}
+
+
+
+/*section products*/
+
+.ac-products {
+  margin-top: 80px;
+}
+
+.ac-products h2 {
+  font-size: 40px;
+}
+
+.ac-products h2, .ac-products h4 {
+  padding-bottom: 20px;
+}
+
+.ac-products .btn {
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
