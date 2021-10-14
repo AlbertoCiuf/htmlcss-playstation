@@ -211,10 +211,11 @@ nav .btn:hover {
 
 .ac-new-releases .ac-card {
   border-radius: 25px;
+  width: 100%;
 }
 
 .ac-new-releases .ac-card img {
-  max-width: 240px;
+  width: 100%;
 }
 
 .ac-new-releases .ac-card p {
