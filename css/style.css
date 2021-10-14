@@ -196,3 +196,27 @@ nav .btn:hover {
 .ac-big-banner.ac-itt h2 {
   font-size: 40px;
 }
+
+/*NUOVE USCITE*/
+.ac-new-releases {
+  background-color: #1F1F1F;
+}
+.ac-new-releases h2 {
+  padding-top: 20px;
+}
+
+.ac-new-releases h2, .ac-new-releases h3 {
+  padding-bottom: 20px;
+}
+
+.ac-new-releases .ac-card {
+  border-radius: 25px;
+}
+
+.ac-new-releases .ac-card img {
+  max-width: 240px;
+}
+
+.ac-new-releases .ac-card p {
+  padding-top: 10px;
+}
