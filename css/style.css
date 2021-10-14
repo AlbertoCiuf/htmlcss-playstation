@@ -77,7 +77,7 @@ nav .btn:hover {
   margin-left: 10px;
 }
 
-.ac-jumbotron .btn:hover {
+.ac-jumbotron .btn:hover, .ac-big-banner.ac-itt .btn:hover {
   box-shadow: inset 0px 0px 0px 2px black;
   border-radius: 25px;
 }
@@ -168,4 +168,31 @@ nav .btn:hover {
 .col.opacity-75:hover {
   cursor: pointer;
   opacity: 1 !important;
+}
+
+/*BIG BANNER IT TAKES TWO*/
+
+.ac-big-banner.ac-itt {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  padding: 80px 0 40px 0;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ac-big-banner.ac-itt img {
+  width: 300px;
+}
+
+.ac-big-banner.ac-itt .btn {
+  width: 130px;
+  border-radius: 25px;
+}
+
+.ac-big-banner.ac-itt img, .ac-big-banner.ac-itt h2, .ac-big-banner.ac-itt p {
+  padding-bottom: 30px;
+}
+
+.ac-big-banner.ac-itt h2 {
+  font-size: 40px;
 }
