@@ -52,6 +52,10 @@ nav .btn:hover {
   border-radius: 25px;
 }
 
+header nav ul li a:hover {
+  color: #2276CF !important;
+}
+
 .ac-search {
   cursor: pointer;
   height: 30px;
@@ -341,6 +345,46 @@ nav .btn:hover {
   padding: 15px 0;
   cursor: pointer;
 }
+
+
+/*FOOTER*/
+footer {
+  background-color: #0E439C;
+  padding-top: 50px;
+}
+
+footer .ac-footer-top img.ac-footer-logo {
+  width: 100px;
+  padding-bottom: 15px;
+}
+
+#language-globe {
+  height: 15px;
+}
+
+.ac-footer-lang-select {
+  padding-bottom: 30px
+}
+
+
+.ac-footer-bottom .ac-copy-logo img{
+  height: 80px;
+  padding-bottom: 20px;
+}
+
+
+footer ul li:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 /*MEDIA QUERY*/
 @media screen and (max-width: 992px) {
