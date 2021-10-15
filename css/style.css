@@ -37,6 +37,19 @@ h4 {
   box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
 }
 
+.ac-upwards {
+  transition: all .5s;
+}
+
+.ac-upwards:hover {
+  transform: translateY(-15%);
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  transition: all .2s;
+}
+
 /*HEADER*/
 header {
   height: 100px;
@@ -137,12 +150,11 @@ img.ac-drp-img {
   cursor: pointer;
 }
 
-.ac-card.ac-active {
-  outline: 2px solid #2072CE;
-  outline-offset: 2px;
-  padding: 3px;
+.ac-game-cards .ac-card:first-child {
+  padding: 5px;
   border-radius: 25px;
 }
+
 
 
 /*section slogan*/
@@ -301,11 +313,12 @@ img.ac-drp-img {
 
 .ac-ps-plus .btn {
   margin-bottom: 30px;
+
 }
 
 .ac-ps-plus .btn:hover {
   color: #2276CF;
-  outline: 3px solid rgba(255,255,255, .4);
+  outline: 2px solid rgba(255,255,255, .4);
 }
 
 .ac-ps-plus img.ps-plus-games {
