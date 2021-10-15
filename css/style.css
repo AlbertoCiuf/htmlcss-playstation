@@ -287,6 +287,9 @@ nav .btn:hover {
 }
 
 /*SECTION SALES*/
+.ac-ps-sales {
+  margin-bottom: 70px;
+}
 
 .ac-ps-sales h2 {
   padding: 50px 0 20px 0;
@@ -299,27 +302,46 @@ nav .btn:hover {
 
 .ac-ps-sales img {
   width: 100%;
+  cursor: pointer;
 }
 
+/*SECTION PS NOW*/
+.ac-ps-now {
+  background-color: #161D3B;
+}
 
+#psnowlogo {
+  width: 60%;
+  padding-bottom: 30px;
+}
 
+.ac-ps-now p {
+  padding-bottom: 20px;
+}
+
+.ac-ps-now img.ps-now-games {
+  max-width: initial;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0;
+}
 
 
 /*MEDIA QUERY*/
 @media screen and (max-width: 992px) {
     
-    #pspluslogo {
+    #pspluslogo, #psnowlogo {
       width: 80%;
     }
 
-    .ac-ps-plus .btn {
+    .ac-ps-plus .btn, .ac-ps-now .btn {
       margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 576px) {
   
-  .ac-ps-plus .btn {
+  .ac-ps-plus .btn, .ac-ps-now .btn {
     margin-bottom: 30px;
   }
 }
