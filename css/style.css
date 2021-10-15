@@ -3,11 +3,6 @@
   width: 12px;
 }
 
-.ac-container-90 {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .ac-btn-orange {
   background-color: #CC3D0F;
 }
@@ -151,7 +146,6 @@ nav .btn:hover {
   box-shadow: inset 0px 0px 0px 2px #fff;
   border-radius: 25px;
 }
-
 
 .ac-prod-img {
   padding: 10px;
@@ -308,6 +302,7 @@ nav .btn:hover {
 /*SECTION PS NOW*/
 .ac-ps-now {
   background-color: #161D3B;
+  margin-bottom: 70px;
 }
 
 #psnowlogo {
@@ -326,6 +321,26 @@ nav .btn:hover {
   margin-bottom: 0;
 }
 
+.ac-ps-now .btn:hover {
+  box-shadow: inset 0px 0px 0px 2px #000;
+  border-radius: 25px;
+}
+
+/*SECTION SOCIAL*/
+.ac-social-icons {
+  margin-bottom: 70px;
+}
+
+.ac-social-icons h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.ac-social-icons img {
+  max-width: 100%;
+  padding: 15px 0;
+  cursor: pointer;
+}
 
 /*MEDIA QUERY*/
 @media screen and (max-width: 992px) {
