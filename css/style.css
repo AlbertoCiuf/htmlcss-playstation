@@ -56,6 +56,29 @@ header nav ul li a:hover {
   color: #2276CF !important;
 }
 
+img.ac-drp-img {
+  width: 80px;
+  padding-bottom: 15px;
+}
+
+
+  /*Dropdown full width*/
+  
+  .ac-dropdown { 
+    position: static; 
+  }
+  
+  .ac-dropdown-menu { 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 0 !important;
+  }
+
+  .ac-dropdown-menu > li:first-child {
+    display: inline-block;
+  }
+
+
 .ac-search {
   cursor: pointer;
   height: 30px;
