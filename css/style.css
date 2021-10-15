@@ -221,3 +221,32 @@ nav .btn:hover {
 .ac-new-releases .ac-card p {
   padding-top: 10px;
 }
+
+
+/*section explore*/
+.ac-explore h2 {
+  padding: 50px 0 20px 0;
+  font-size: 44px;
+}
+
+.ac-explore h5 {
+  color: grey;
+  padding-bottom: 20px;
+}
+
+.ac-explore h4:last-of-type {
+  padding-bottom: 70px;
+}
+
+.ac-explore .ac-ps4 img {
+  width: 100%;
+}
+
+.ac-explore .ac-ps4 .btn {
+  margin-bottom: 50px;
+}
+
+.ac-explore .ac-ps4 .btn:hover {
+  box-shadow: inset 0px 0px 0px 2px #fff;
+  border-radius: 25px;
+}
