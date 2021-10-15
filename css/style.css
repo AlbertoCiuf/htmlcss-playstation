@@ -20,6 +20,10 @@
   background-color: #363636;
 }
 
+.ac-btn-lightgrey {
+  background-color: #D9DADC;
+}
+
 .ac-teal {
   color: #2276CF;
 }
@@ -223,7 +227,7 @@ nav .btn:hover {
 }
 
 
-/*section explore*/
+/*SECTION EXPLORE*/
 .ac-explore h2 {
   padding: 50px 0 20px 0;
   font-size: 44px;
@@ -249,4 +253,29 @@ nav .btn:hover {
 .ac-explore .ac-ps4 .btn:hover {
   box-shadow: inset 0px 0px 0px 2px #fff;
   border-radius: 25px;
+}
+
+/*SECTION PS PLUS*/
+
+.ac-ps-plus {
+  background-color: #BEBCBB;
+}
+
+.ac-ps-plus img {
+  width: 400px;
+  padding-bottom: 30px;
+}
+.ac-ps-plus p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.ac-ps-plus .btn:hover {
+  outline: 3px solid rgba(255,255,255, .4);
+}
+
+.ac-ps-plus img.ps-plus-games {
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
