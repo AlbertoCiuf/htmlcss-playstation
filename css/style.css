@@ -27,6 +27,16 @@ h4 {
   color: grey;
 }
 
+.ac-scale-up {
+  transition: all .5s;
+
+}
+
+.ac-scale-up:hover {
+  transform: scale(1.05);
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
 /*HEADER*/
 header {
   height: 100px;
@@ -71,12 +81,10 @@ img.ac-drp-img {
   .ac-dropdown-menu { 
     width: 100%; 
     text-align: center; 
-    margin-top: 0 !important;
+    margin-top: -5px !important;
+    border: none;
   }
 
-  .ac-dropdown-menu > li:first-child {
-    display: inline-block;
-  }
 
 
 .ac-search {
