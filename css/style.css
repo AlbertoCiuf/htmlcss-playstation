@@ -270,6 +270,10 @@ nav .btn:hover {
   padding-bottom: 20px;
 }
 
+.ac-ps-plus .btn {
+  margin-bottom: 30px;
+}
+
 .ac-ps-plus .btn:hover {
   color: #2276CF;
   outline: 3px solid rgba(255,255,255, .4);
@@ -282,16 +286,40 @@ nav .btn:hover {
   margin-bottom: 0;
 }
 
+/*SECTION SALES*/
+
+.ac-ps-sales h2 {
+  padding: 50px 0 20px 0;
+  font-size: 44px;
+}
+
+.ac-ps-sales h4 {
+  padding-bottom: 30px;
+}
+
+.ac-ps-sales img {
+  width: 100%;
+}
 
 
 
 
 
 /*MEDIA QUERY*/
-@media screen and (max-width: 992px)
-{
+@media screen and (max-width: 992px) {
+    
     #pspluslogo {
       width: 80%;
     }
 
+    .ac-ps-plus .btn {
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  
+  .ac-ps-plus .btn {
+    margin-bottom: 30px;
+  }
 }
