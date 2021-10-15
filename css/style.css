@@ -372,6 +372,9 @@ footer .ac-footer-top img.ac-footer-logo {
   padding-bottom: 20px;
 }
 
+.ac-footer-bottom {
+  padding-bottom: 60px;
+}
 
 footer ul li:hover {
   cursor: pointer;
